@@ -102,3 +102,6 @@ Git commit through CMake (`FetchContent`, a submodule, or installed artifacts)
 before reproducible builds are claimed. The exact mechanism and the Agent4NAO
 language/build split are Stage 0 decisions recorded in
 [`docs/Agent4NAO Project Initialization Decision Record Rev1.0.md`](docs/Agent4NAO%20Project%20Initialization%20Decision%20Record%20Rev1.0.md).
+
+# Agent4Nao
+
