@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent4nao"
+version = "0.1.0"
+description = "NAO embodied-agent application layer over Agent-Kernel."
+requires-python = ">=3.11"
+
+[project.scripts]
+agent4nao-chat = "agent4nao.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["agent4nao*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
